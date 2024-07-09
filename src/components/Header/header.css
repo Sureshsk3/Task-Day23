@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+
+}
+.input {
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+  border: 2px solid #56d48d;
+ 
+}
+.btn-input {
+  margin: 10px;
+  border-radius: 5px;
+  width: 150px;
+}
+.box-todo {
+  display: grid !important;
+  grid-template-columns: auto auto auto;
+}
+
+.child-box {
+  background-color: #affba7 !important;
+  padding: 10px !important;
+  margin: 20px;
+  padding: 10px !important;
+  height: 300px;
+  width: 400px;
+  position: relative;
+}
+.btnAll{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+.dlt-edt-btn {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+.btn-dropdown{
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  outline: none;
+  font-size: medium;
+}
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-box span {
+  margin-right: 10px;
+}
+.dropdown-toggle {
+  width: 100px;
+  margin-left: 20px;
+  margin: 0;
+  padding: 0;
+}
+.dropdown-toggle{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+.dropdown-btn{
+  height: 40px !important;
+  width: fit-content;
+}
